@@ -8,7 +8,9 @@ Answer the following:
 Answer:
 
 An IAM policy to access Secrets Manager (the policy JSON is as shown below). 
+
 An IAM role and with the above created IAM policy attached to it.
+
 Modify EC2 IAM role to include the role created in the step above. 
 
 
@@ -41,5 +43,6 @@ Answer:
 3. Using the secret name prod/cart-service/credentials, derive a sensible ARN as the specific resource for access.
 
 Answer:
+
 arn:aws:secretsmanager:ap-southeast-1:255945442255:secret:prod/yl-cart-service/credentials-O7kbbY
 
