@@ -7,7 +7,7 @@ Answer the following:
    
 Answer:
 
-An IAM policy to access Secrets Manager (the policy JSON is as shown below). 
+An IAM policy to access Secrets Manager (a sample policy JSON is as shown below). 
 
 An IAM role and with the above created IAM policy attached to it.
 
@@ -17,6 +17,7 @@ Modify EC2 IAM role to include the role created in the step above.
 2. Derive the IAM policy (i.e. JSON)?
 
 Answer:
+
 {
     "Version": "2012-10-17",
     "Statement": [
